@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pipe']
+
+roboflow:
+  workspace: ariefworkspace
+  project: pvc-pipes-t9q55-ntnck
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ariefworkspace/pvc-pipes-t9q55-ntnck/dataset/1

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['------------------------------', 'This dataset was exported via roboflow.com on July 4- 2023 at 6-50 AM GMT', 'steel rod counting - v1 2023-06-08 1-25pm']
+
+roboflow:
+  workspace: ariefworkspace
+  project: rebar-1hzmu-kgowh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ariefworkspace/rebar-1hzmu-kgowh/dataset/1
